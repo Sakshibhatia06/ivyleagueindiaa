@@ -2315,6 +2315,7 @@ svg{
 
 /* line 1, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_footer.scss */
 .footer {
+  margin-top: 40px;
   background-repeat: no-repeat;
   background-position: center center;
   background-repeat: no-repeat;
@@ -2329,8 +2330,8 @@ svg{
 
 /* line 10, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_footer.scss */
 .footer .footer_top {
-  padding-top: 120px;
-  padding-bottom: 110px;
+  padding-top: 20px;
+  padding-bottom: 50px;
 }
 
 @media (max-width: 767px) {
@@ -2534,7 +2535,7 @@ svg{
 
 /* line 159, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_footer.scss */
 .footer .copy-right_text {
-  padding-bottom: 60px;
+  padding-bottom: 10px;
 }
 
 /* line 161, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_footer.scss */
@@ -2570,7 +2571,7 @@ svg{
 /* line 182, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_footer.scss */
 .footer .footer_border {
   border-top: 1px solid #353b56;
-  padding-bottom: 60px;
+  padding-bottom: 10px;
 }
 
 /* line 188, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_footer.scss */
@@ -6993,48 +6994,63 @@ h6 {
   }
 }
 
-.faqs-section{
-  padding:30px 20px;
+.faqs-section {
+  padding: 60px 0;
 }
-.section-title{
-  text-align: center;
-  font-size:32px;
-  margin-bottom:40px;
-  color:#000000;
-}
-.faq-item{
-  margin-bottom: 20px;
+
+.faq-item {
+  margin: 20px 0;
   border-bottom: 1px solid #ddd;
+  margin-bottom: 10px;
 }
-.faq-question{
-  background-color: #7e7e7e;
-  color:#000000;
+
+.faq-question {
   width: 100%;
   background: none;
   border: none;
-  padding:15px;
-  text-align:left;
-  font-size:18px;
+  outline: none;
+  text-align: left;
+  font-size: 18px;
+  font-weight: 600;
   cursor: pointer;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 15px 0;
+  color: #000;
 }
-.faq-toggle{
-  font-size:24px;
-  transition:transform 0.3s ease;
+
+.faq-question:hover {
+  color: #7b080b;
 }
-.faqs-answer{
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.3s ease;
-  padding: 0 15px;
+
+.faq-toggle {
+  font-size: 22px;
+  font-weight: 700;
+  color: #7b080b;
 }
-.faq-answer p{
-  margin:10px 0;
+
+.faq-answer {
+  display: none;
+  padding: 0 0 15px 0;
+  color: #555;
+  line-height: 1.6;
 }
-.faq-item.active .faq-answer{
-  max-height:250px;
+
+.faq-item.active .faq-answer {
+  display: block;
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .step-card{
@@ -7214,6 +7230,66 @@ h6 {
   transform:scale(1.03);
   box-shadow:0 10px 25px rgba(0, 0, 0, 0.15)
 }
+.copyright-notice {
+    padding: 30px 40px;
+    margin: 50px auto;
+  }
+
+  .copyright-notice .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .copyright-header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .copyright-header .update {
+    color: #666;
+    font-size: 14px;
+  }
+
+  .copyright-notice h3 {
+    font-size:35px;
+    margin-top: 30px;
+    border-left: 4px solid #7b080b;
+    padding-left: 12px;
+  }
+
+  .copyright-notice p {
+    margin-bottom: 18px;
+    text-align: justify;
+  }
+
+  .copyright-notice ul {
+    margin-left: 25px;
+    margin-bottom: 18px;
+  }
+
+  .copyright-notice li {
+    margin-bottom: 10px;
+  }
+
+  .copyright-footer {
+    background: #3c0063;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 15px;
+    margin-top: 40px;
+    letter-spacing: 0.5px;
+  }
+
+  @media (max-width: 768px) {
+    .copyright-notice {
+      padding: 40px 20px;
+    }
+    .copyright-header h2 {
+      font-size: 24px;
+    }
+  }
 @media (max-width:768px) {
   .slide-track{
     animation-duration:30s;
