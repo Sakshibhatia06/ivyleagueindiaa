@@ -1,10 +1,9 @@
 <?php
-
-    $to = "spn8@spondonit.com";
+    $to = "hello@ivyleagueindia.com";
     $from = $_REQUEST['email'];
     $name = $_REQUEST['name'];
-    $subject = $_REQUEST['subject'];
-    $number = $_REQUEST['number'];
+    $country = $_REQUEST['country'];
+    $phone = $_REQUEST['phone'];
     $cmessage = $_REQUEST['message'];
 
     $headers = "From: $from";
@@ -13,10 +12,10 @@
 	$headers .= "MIME-Version: 1.0\r\n";
 	$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
-    $subject = "You have a message from your Bitmap Photography.";
+    $subject = "You have a message from ivyleagueindia website.";
 
-    $logo = 'img/logo.png';
-    $link = '#';
+    $logo = 'img/logo-design.jpg';
+    $link = 'ivyleagueindia.com';
 
 	$body = "<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'><title>Express Mail</title></head><body>";
 	$body .= "<table style='width: 100%;'>";
@@ -26,12 +25,12 @@
 	$body .= "<td style='border:none;'><strong>Name:</strong> {$name}</td>";
 	$body .= "<td style='border:none;'><strong>Email:</strong> {$from}</td>";
 	$body .= "</tr>";
-	$body .= "<tr><td style='border:none;'><strong>Subject:</strong> {$csubject}</td></tr>";
+	$body .= "<tr><td style='border:none;'><strong>Country:</strong> {$country}</td></tr>";
+	$body .= "<tr><td style='border:none;'><strong>Phone Number:</strong> {$phone}</td></tr>";
 	$body .= "<tr><td></td></tr>";
 	$body .= "<tr><td colspan='2' style='border:none;'>{$cmessage}</td></tr>";
 	$body .= "</tbody></table>";
 	$body .= "</body></html>";
 
     $send = mail($to, $subject, $body, $headers);
-
 ?>

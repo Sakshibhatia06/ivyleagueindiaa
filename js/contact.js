@@ -16,11 +16,11 @@ $(document).ready(function(){
                     required: true,
                     minlength: 2
                 },
-                subject: {
+                country: {
                     required: true,
                     minlength: 4
                 },
-                number: {
+                phone: {
                     required: true,
                     minlength: 5
                 },
@@ -38,11 +38,11 @@ $(document).ready(function(){
                     required: "come on, you have a name, don't you?",
                     minlength: "your name must consist of at least 2 characters"
                 },
-                subject: {
+                country: {
                     required: "come on, you have a subject, don't you?",
                     minlength: "your subject must consist of at least 4 characters"
                 },
-                number: {
+                phone: {
                     required: "come on, you have a number, don't you?",
                     minlength: "your Number must consist of at least 5 characters"
                 },

@@ -2720,6 +2720,10 @@ svg{
   background-image:url(../img/image-get-started-page.png);
   opacity:0.9;
 }
+.breadcam_bg22{
+  background-image:url(../img/University-of-Southhampton-Gurgaon-campus.jpg);
+  opacity:0.9;
+}
 
 .bradcam_area::after{
   content: "";
@@ -2733,10 +2737,9 @@ svg{
 
 /* line 5, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_bradcam.scss */
 .bradcam_area {
-  padding: 170px;
   background-size: cover;
   background-position: center center;
-  padding: 171px 0px;
+  padding: 190px 0px;
   background-repeat: no-repeat;
 }
 
@@ -7252,6 +7255,11 @@ h6 {
   .copyright-header .update {
     color: #666;
     font-size: 14px;
+  }
+   .copyright-notice h2 {
+    font-size:40px;
+    margin-top: 30px;
+    padding-left: 12px;
   }
 
   .copyright-notice h3 {
