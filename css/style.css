@@ -2728,7 +2728,7 @@ svg{
 .bradcam_area::after{
   content: "";
   position: absolute;
-  margin-top:150px;
+  margin-top:170px;
   inset:0;
   background: rgba(48, 48, 48, 0.55);
   z-index:1;
