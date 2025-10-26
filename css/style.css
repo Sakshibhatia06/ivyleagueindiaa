@@ -5787,7 +5787,7 @@ h6 {
 @media (min-width: 768px) {
   /* line 549, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_blog.scss */
   .blog_details h2 {
-    font-size: 24px;
+    font-size: 40px;
     margin-bottom: 15px;
   }
 }
@@ -6184,10 +6184,14 @@ h6 {
   background: rgba(130, 139, 178, 0.1);
   padding: 15px;
   line-height: 1.733;
-  color: #888888;
+  color: #000000;
   font-style: italic;
   margin-top: 25px;
   margin-bottom: 25px;
+}
+.feature-img img{
+  max-width: 60%;
+  height: 500px;
 }
 
 @media (min-width: 768px) {
