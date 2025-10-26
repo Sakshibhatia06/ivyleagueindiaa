@@ -2728,14 +2728,13 @@ svg{
 .bradcam_area::after{
   content: "";
   position: absolute;
-  margin-top:150px;
+  margin-top:170px;
   inset:0;
   background: rgba(48, 48, 48, 0.55);
   z-index:1;
   pointer-events: none;
 }
 
-/* line 5, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_bradcam.scss */
 .bradcam_area {
   background-size: cover;
   background-position: center center;
@@ -7475,6 +7474,62 @@ h6 {
   font-size:0.9rem;
   color:black;
 }
+.features-section {
+  padding: 80px 20px;
+  background: #f9f9ff;
+  text-align: center;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+.feature-card {
+  background: #fff;
+  padding: 30px 25px;
+  border-radius: 16px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  text-align: left;
+}
+
+.feature-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(43, 0, 102, 0.15);
+}
+
+.feature-card h3 {
+  font-size: 1.3rem;
+  color: #7b080b;
+  margin-bottom: 15px;
+}
+
+.feature-card p {
+  color: black;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+.feature-card img{
+  width:300px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-bottom: 30px;
+}
+
+.read-more {
+  color: #7b080b;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.read-more:hover {
+  color: #2b0066;
+}
+
 
   @media (max-width: 768px) {
     .testimonial-grid{
