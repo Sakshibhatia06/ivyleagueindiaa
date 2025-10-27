@@ -2643,102 +2643,124 @@ svg{
 }
 .breadcam_bg1{
   background-image:url(../img/website-how-it-works.png);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
 }
 .breadcam_bg2{
   background-image:url(../img/Website-founder-message-page.png);
-  opacity:0.9;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
 }
 .breadcam_bg3{
   background-image:url(../img/website-resources-page.png);
-  opacity:0.9;
+ background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
 }
 .breadcam_bg4{
-   background-image:url(../img/Ashoka-Uni-photo.png);
-  opacity:0.9;
+  background-image:url(../img/Ashoka-Uni-photo.png);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
 }
 .breadcam_bg5{
-   background-image:url(../img/VIT-Photo.png);
-  opacity:0.9;
+  background-image:url(../img/VIT-Photo.png);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
 }
 .breadcam_bg6{
-   background-image:url(../img/Symbiosis-picture.png);
-  opacity:0.9;
+  background-image:url(../img/Symbiosis-picture.png);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
 }
 .breadcam_bg7{
-   background-image:url(../img/Manipal-University-picture.png);
-  opacity:0.9;
+  background-image:url(../img/Manipal-University-picture.png);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
 }
 .breadcam_bg8{
-    background-image:url(../img/Website-who-we-are.png);
-  opacity:0.9;
+  background-image:url(../img/Website-who-we-are.png);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
 }
 .breadcam_bg9{
    background-image:url(../img/Website-what-we-do.png);
-  opacity:0.9;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
 }
 .breadcam_bg10{
   background-image:url(../img/post/Website-Scholarship-page.png);
-  opacity:0.9;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
 }
 .breadcam_bg11{
   background-image:url(../img/post/Page-online-delivery.png);
-  opacity:0.9;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
 }
 .breadcam_bg12{
   background-image:url(../img/Website-special-assistance.png);
-  opacity:0.9;
+ background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
 }
 .breadcam_bg13{
   background-image:url(../img/Website-profile-enhancement-page.jpg);
-  opacity:0.9;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
 }
 .breadcam_bg14{
   background-image:url(../img/shiv-nadar-university.jpg);
-  opacity:0.9;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
 }
 .breadcam_bg15{
   background-image:url(../img/Narsee-Monjee-University.jpg);
-  opacity:0.9;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
 }
 .breadcam_bg16{
   background-image:url(../img/Christ-University.webp);
-  opacity:0.9;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
 }
 .breadcam_bg17{
   background-image:url(../img/SRM-UNI-PIC.png);
-  opacity:0.9;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
 }
 .breadcam_bg18{
   background-image:url(../img/Amity-noida.jpg);
-  opacity:0.9;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
 }
 .breadcam_bg19{
   background-image:url(../img/BITS-page.png);
-  opacity:0.9;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
 }
 .breadcam_bg20{
   background-image:url(../img/image-get-started-page.png);
-  opacity:0.9;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
 }
 .breadcam_bg22{
   background-image:url(../img/University-of-Southhampton-Gurgaon-campus.jpg);
-  opacity:0.9;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
 }
-
-.bradcam_area::after{
-  content: "";
-  position: absolute;
-  margin-top:170px;
-  inset:0;
-  background: rgba(48, 48, 48, 0.55);
-  z-index:1;
-  pointer-events: none;
+.breadcam_bg23{
+  background:url(../img/deakin-photo-website.png);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+}
+.breadcam_bg24{
+  background:url(../img/Entrance-test-banner.png);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
 }
 
 .bradcam_area {
   background-size: cover;
   background-position: center center;
-  padding: 185px 0px;
+  padding: 350px 0px;
   background-repeat: no-repeat;
 }
 
@@ -7518,7 +7540,6 @@ h6 {
 .feature-card img{
   width:300px;
   height: 250px;
-  object-fit: cover;
   border-radius: 15px;
   margin-bottom: 30px;
 }
