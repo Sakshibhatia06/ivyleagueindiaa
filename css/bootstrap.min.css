@@ -9121,7 +9121,7 @@ a.text-primary:hover {
 }
 
 .text-secondary {
-    color: #6c757d!important
+    color: black!important
 }
 
 a.text-secondary:focus,
@@ -9184,7 +9184,8 @@ a.text-dark:hover {
 }
 
 .text-muted {
-    color: #6c757d!important
+    color: black !important;
+    font-size:19px;
 }
 
 .text-hide {
@@ -9267,6 +9268,9 @@ a.text-dark:hover {
     .table-bordered th {
         border: 1px solid #ddd!important
     }
+    .text-muted {
+    font-size:15px;
+}
 }
 
 

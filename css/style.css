@@ -689,7 +689,7 @@ svg{
   text-transform: uppercase;
   font-size: 50px;
   font-weight: 600;
-  color:#7b080b;
+  color:black;
 }
 
 @media (max-width: 767px) {
@@ -701,9 +701,9 @@ svg{
 
 /* line 11, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_section_title.scss */
 .section_title P {
-  font-size: 16px;
+  font-size: 20px;
   line-height: 2;
-  color: #234262;
+  color: black !important;
   margin-bottom: 0;
 }
 
@@ -853,7 +853,7 @@ svg{
   padding: 5px;
   right: 0;
   margin-top: -5px;
-  top: -29px;
+  top: -49px;
 }
 
 /* line 1, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_header.scss */
@@ -2753,6 +2753,11 @@ svg{
 }
 .breadcam_bg24{
   background:url(../img/Entrance-test-banner.png);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+}
+.breadcam_bg25{
+  background:url(../img/wollongong-uni-page-pic.png);
   background-color: rgba(0, 0, 0, 0.5);
   background-blend-mode: multiply;
 }
@@ -7554,6 +7559,14 @@ h6 {
 .read-more:hover {
   color: #2b0066;
 }
+.buttons{
+  display: flex;
+  gap:30px;
+}
+.who-we-are-section{
+  width:60vw;
+  margin:20px auto;
+}
 
 
   @media (max-width: 768px) {
@@ -7573,5 +7586,45 @@ h6 {
   }
   .slide{
     width: 120px;
+  }
+  .section_title P {
+  font-size: 14px;
+  line-height: 2;
+}
+.logo img{
+  width: 70px !important;
+    height: 70px !important;
+}
+.section_heading {
+  font-size:20px;
+}
+.boxed-btn3{
+  padding:17px 10px;
+}
+.boxed-btn4{
+  padding:17px 10px;
+}
+.feature-card img {
+    width: 250px;
+  }
+  .who-we-are-section{
+    width:100vw;
+    margin:20px auto;
+  }
+  .what_we_do_grid {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+  .cards-how-it-works {
+    grid-template-columns: repeat(1, 1fr) !important;
+  } 
+    .country-title {
+    font-size: 18px;
+  }
+    .timeline-item {
+    padding-left: 25px;
+  }
+  .feature-img img {
+    max-width: 100%;
+    height: 400px;
   }
 }
