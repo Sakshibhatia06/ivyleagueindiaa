@@ -2761,6 +2761,16 @@ svg{
   background-color: rgba(0, 0, 0, 0.5);
   background-blend-mode: multiply;
 }
+.breadcam_bg26{
+  background:url(../img/guided-campus-tour-picture.png);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+}
+.breadcam_bg27{
+  background:url(../img/Fraser-valley-picture.png);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+}
 
 .bradcam_area {
   background-size: cover;
@@ -7300,6 +7310,7 @@ h6 {
   }
 
   .copyright-notice p {
+    color:black;
     margin-bottom: 18px;
     text-align: justify;
   }
@@ -7381,6 +7392,15 @@ h6 {
   position: absolute;
   left: 18px;
   top: 11px;
+  font-size: 22px;
+  line-height: 1;
+  color: #7b080b;
+}
+.bullet li::before {
+  content: "•";
+  position: absolute;
+  left: 13px;
+  top: 7px;
   font-size: 22px;
   line-height: 1;
   color: #7b080b;
