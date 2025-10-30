@@ -2771,6 +2771,11 @@ svg{
   background-color: rgba(0, 0, 0, 0.5);
   background-blend-mode: multiply;
 }
+.breadcam_bg28{
+  background:url(../img/York-hyderabad-picture.png);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: multiply;
+}
 
 .bradcam_area {
   background-size: cover;
@@ -7587,7 +7592,56 @@ h6 {
   width:60vw;
   margin:20px auto;
 }
+.newsletter-section {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 40px;
+  background: #f9f7ff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  text-align: center;
+}
 
+.newsletter-section h2 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #7b080b;
+}
+
+.newsletter-section p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #444;
+  margin-bottom: 15px;
+}
+
+.newsletter-input {
+  width: 100%;
+  max-width: 360px;
+  padding: 12px 14px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #bbb;
+  outline: none;
+  margin-top: 10px;
+}
+
+.newsletter-btn {
+  margin-top: 16px;
+  background: #7b080b;
+  color: #fff;
+  padding: 12px 26px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.newsletter-btn:hover {
+  background: #7b080b;
+}
 
   @media (max-width: 768px) {
     .testimonial-grid{
