@@ -113,7 +113,7 @@
             </div>
         </div>
     </header>
-    <div class="bradcam_area breadcam_bg18">
+    <div class="bradcam_area breadcam_bg18" title="Amity University" data-bs-toggle="tooltip" data-bs-placement="center" data-bs-title="Amity University">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
@@ -391,9 +391,14 @@
         </div>
     </footer>
 
-
-
-    <!-- JS here -->
+      <script>
+        document.addEventListener("DOMContentLoaded", function(){
+          var tooltipTriggerList=[].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+          var tooltipList= tooltipTriggerList.map(function(tooltipTriggerE1){
+            return new bootstrap.Tooltip(tooltipTriggerE1)
+          })
+        });
+     </script>
     <script src="js/vendor/modernizr-3.5.0.min.js"></script>
     <script src="js/vendor/jquery-1.12.4.min.js"></script>
     <script src="js/popper.min.js"></script>

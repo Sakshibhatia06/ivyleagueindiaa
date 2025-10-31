@@ -109,7 +109,7 @@
             </div>
         </div>
     </header>
-    <div class="bradcam_area breadcam_bg">
+    <div class="bradcam_area breadcam_bg" title="Graduation scrolls with red ribbons" data-bs-toggle="tooltip" data-bs-placement="center" data-bs-title="Graduation scrolls with red ribbons">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
@@ -145,7 +145,7 @@ transcripts, degrees, award certificates, appointment letters, and other relevan
 enables us to set up your offline folder in our office if we have not done so already.<br></p>
                 </div>
                 <div class="col-md-6 text-center">
-                    <img class="img-fluid rounded" src="./img/post/Page-online-delivery.png" alt="students-image">
+                    <img class="img-fluid rounded" src="./img/post/Page-online-delivery.png" alt="students-image" title="Online class with mentor and student" data-bs-toggle="tooltip" data-bs-placement="center" data-bs-title="Online class with mentor and student">
                 </div>
             </div>
         </div>
@@ -281,6 +281,14 @@ and ask us to tell you how we can propel your academic journey?</p>
 
 
     <!-- JS here -->
+      <script>
+        document.addEventListener("DOMContentLoaded", function(){
+          var tooltipTriggerList=[].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+          var tooltipList= tooltipTriggerList.map(function(tooltipTriggerE1){
+            return new bootstrap.Tooltip(tooltipTriggerE1)
+          })
+        });
+     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>

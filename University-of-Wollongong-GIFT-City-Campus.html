@@ -32,7 +32,7 @@
 </head>
 
 <body>
-     <header>
+    <header>
         <div class="header-area ">
             <div id="sticky-header" class="main-header-area">
                 <div class="container-fluid">
@@ -64,11 +64,12 @@
                                                         <li><a href="Specially-Challenged-Applicants.html">Specially
                                                                 Challenged Applicants</a></li>
                                                         <li><a href="Online-Degrees.html">Online Degrees</a></li>
-                                                        <li><a href="Guided-Campus-Tour.html">Guided Campus Tour</a></li>
+                                                        <li><a href="Guided-Campus-Tour.html">Guided Campus Tour</a>
+                                                        </li>
                                                         <li><a
                                                                 href="Study-at-top-ranked-foreign-University-in-India.html">Study
                                                                 at a top ranked foreign University in India</a></li>
-                                                                <li><a href="Newsletter.html">Newsletter</a></li>
+                                                        <li><a href="Newsletter.html">Newsletter</a></li>
                                                     </ul>
                                                 </li>
                                                 <li><a href="#"> Top Universities <i class="ti-angle-down"></i></a>
@@ -112,7 +113,10 @@
             </div>
         </div>
     </header>
-    <div class="bradcam_area breadcam_bg25">
+    <div class="bradcam_area breadcam_bg25"
+        title="students walking out of the “University of Wollongong GIFT City Campus” building" data-bs-toggle="tooltip"
+        data-bs-placement="center"
+        data-bs-title="students walking out of the “University of Wollongong GIFT City Campus” building">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
@@ -461,6 +465,14 @@
 
 
     <!-- JS here -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+            var tooltipList = tooltipTriggerList.map(function (tooltipTriggerE1) {
+                return new bootstrap.Tooltip(tooltipTriggerE1)
+            })
+        });
+    </script>
     <script src="js/vendor/modernizr-3.5.0.min.js"></script>
     <script src="js/vendor/jquery-1.12.4.min.js"></script>
     <script src="js/popper.min.js"></script>

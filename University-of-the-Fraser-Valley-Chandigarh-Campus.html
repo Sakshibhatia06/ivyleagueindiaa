@@ -112,7 +112,7 @@
             </div>
         </div>
     </header>
-    <div class="bradcam_area breadcam_bg27">
+    <div class="bradcam_area breadcam_bg27" title="Students at the University of Fraser Valley, Chandigarh" data-bs-toggle="tooltip" data-bs-placement="center" data-bs-title="Students at the University of Fraser Valley, Chandigarh" >
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
@@ -466,6 +466,14 @@
 
 
     <!-- JS here -->
+      <script>
+        document.addEventListener("DOMContentLoaded", function(){
+          var tooltipTriggerList=[].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+          var tooltipList= tooltipTriggerList.map(function(tooltipTriggerE1){
+            return new bootstrap.Tooltip(tooltipTriggerE1)
+          })
+        });
+     </script>
     <script src="js/vendor/modernizr-3.5.0.min.js"></script>
     <script src="js/vendor/jquery-1.12.4.min.js"></script>
     <script src="js/popper.min.js"></script>

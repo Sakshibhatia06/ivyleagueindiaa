@@ -167,6 +167,7 @@
         </div>
     </div>
     <!-- slider_area_end -->
+     
     <section class="logo-slider gray_bg">
         <h2 class="text-center">Top Indian Universities For You</h2>
         <div class="slider">
@@ -473,6 +474,14 @@ call, email, or WhatsApp message away!
 
 
     <!-- JS here -->
+      <script>
+        document.addEventListener("DOMContentLoaded", function(){
+          var tooltipTriggerList=[].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+          var tooltipList= tooltipTriggerList.map(function(tooltipTriggerE1){
+            return new bootstrap.Tooltip(tooltipTriggerE1)
+          })
+        });
+     </script>
     <script src="js/vendor/modernizr-3.5.0.min.js"></script>
     <script src="js/vendor/jquery-1.12.4.min.js"></script>
     <script src="js/popper.min.js"></script>

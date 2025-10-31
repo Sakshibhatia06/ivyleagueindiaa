@@ -116,7 +116,9 @@
             <div class="features-grid">
 
                 <div class="feature-card">
-                    <img src="./img/SAT_logo.png" alt="Indian Universities accepting the SAT Standardized Test">
+                    <img src="./img/SAT_logo.png" alt="Indian Universities accepting the SAT Standardized Test" title="Sat Exam Logo" data-bs-toggle="tooltip"
+        data-bs-placement="center"
+        data-bs-title="Sat Exam Logo">
                     <h3>Indian Universities accepting the SAT Standardized Test</h3>
                     <p>While the Scholastic Assessment Test, conducted by the College Board in New York, commonly
                         referred to as the
@@ -131,7 +133,9 @@
                 </div>
 
                 <div class="feature-card">
-                    <img src="./img/scholarship-blog.png" alt="Scholarships from the College Board in India">
+                    <img src="./img/scholarship-blog.png" alt="Scholarships from the College Board in India" title="illustration of students With laptop" data-bs-toggle="tooltip"
+        data-bs-placement="center"
+        data-bs-title="illustration of students With laptop">
                     <h3>Scholarships from the College Board in India</h3>
                     <p>Before we tell you about the numerous scholarship opportunities the College Board offers in
                         India, we will first tell
@@ -145,7 +149,9 @@
                 </div>
 
                 <div class="feature-card">
-                    <img src="./img/entrance-exam.png" alt="College Entrance Test Preparation">
+                    <img src="./img/entrance-exam.png" alt="College Entrance Test Preparation" title="Entrance Test Logos" data-bs-toggle="tooltip"
+        data-bs-placement="center"
+        data-bs-title="Entrance Test Logos">
                     <h3>College Entrance Test Preparation</h3>
                     <p>Unlike admission to high school, admission to college in India requires you to take several
                         entrance tests.
@@ -280,6 +286,14 @@
             </div>
         </div>
     </footer>
+     <script>
+        document.addEventListener("DOMContentLoaded", function(){
+          var tooltipTriggerList=[].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+          var tooltipList= tooltipTriggerList.map(function(tooltipTriggerE1){
+            return new bootstrap.Tooltip(tooltipTriggerE1)
+          })
+        });
+     </script>
 
     <!-- JS here -->
     <script src="js/vendor/modernizr-3.5.0.min.js"></script>

@@ -64,11 +64,12 @@
                                                         <li><a href="Specially-Challenged-Applicants.html">Specially
                                                                 Challenged Applicants</a></li>
                                                         <li><a href="Online-Degrees.html">Online Degrees</a></li>
-                                                        <li><a href="Guided-Campus-Tour.html">Guided Campus Tour</a></li>
+                                                        <li><a href="Guided-Campus-Tour.html">Guided Campus Tour</a>
+                                                        </li>
                                                         <li><a
                                                                 href="Study-at-top-ranked-foreign-University-in-India.html">Study
                                                                 at a top ranked foreign University in India</a></li>
-                                                                <li><a href="Newsletter.html">Newsletter</a></li>
+                                                        <li><a href="Newsletter.html">Newsletter</a></li>
                                                     </ul>
                                                 </li>
                                                 <li><a href="#"> Top Universities <i class="ti-angle-down"></i></a>
@@ -112,7 +113,10 @@
             </div>
         </div>
     </header>
-    <div class="bradcam_area breadcam_bg22">
+    <div class="bradcam_area breadcam_bg22"
+        title="student working on computer screens in a modern lab at University of South Hampton Gurugram Campus"
+        data-bs-toggle="tooltip" data-bs-placement="center"
+        data-bs-title="student working on computer screens in a modern lab at University of South Hampton Gurugram Campus ">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
@@ -271,11 +275,11 @@
             </p>
         </div>
         <div class="who-we-are-contact-btn">
-        <a style="width:40%; margin-top: 20px;" href="contact.html" class="boxed-btn3">Contact Us Now</a>
-    </div>
+            <a style="width:40%; margin-top: 20px;" href="contact.html" class="boxed-btn3">Contact Us Now</a>
+        </div>
     </section>
 
-   <footer class="footer">
+    <footer class="footer">
         <div class="footer_top">
             <div class="container">
                 <div class="newsLetter_wrap">
@@ -305,9 +309,12 @@
                                         </li>
                                         <li>
                                             <a href="#">
-                                               <svg style="color:white" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
-  <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
-</svg>
+                                                <svg style="color:white" xmlns="http://www.w3.org/2000/svg" width="20"
+                                                    height="20" fill="currentColor" class="bi bi-twitter-x"
+                                                    viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
+                                                </svg>
                                             </a>
                                         </li>
                                         <li>
@@ -400,6 +407,14 @@
 
 
     <!-- JS here -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+            var tooltipList = tooltipTriggerList.map(function (tooltipTriggerE1) {
+                return new bootstrap.Tooltip(tooltipTriggerE1)
+            })
+        });
+    </script>
     <script src="js/vendor/modernizr-3.5.0.min.js"></script>
     <script src="js/vendor/jquery-1.12.4.min.js"></script>
     <script src="js/popper.min.js"></script>
